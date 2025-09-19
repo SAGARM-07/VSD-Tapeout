@@ -39,6 +39,8 @@ git clone https://github.com/YosysHQ/yosys.git
 
 </div>
 
+<img width="859" height="193" alt="Image" src="https://github.com/user-attachments/assets/cb3e3d06-b6fa-45e8-be94-fe50af2df26d" />
+
 Once cloned run the below commands 
 <div >
 

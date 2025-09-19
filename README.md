@@ -16,8 +16,39 @@ Before you begin, ensure your virtual machine meets the following requirements:
 
 Follow the provided commands to install each tool. Open a terminal in your Ubuntu virtual machine and execute the commands in the order listed.
 
-Before that just update your system using **$ sudo apt-get update**
+Before that just update your system using 
+<div >
+
+```
+$ sudo apt-get update
+```
+
+</div>
 
 **1.Yosys**
 
+
 Clone the repo of yosys 
+<div >
+
+```
+git clone https://github.com/YosysHQ/yosys.git
+```
+
+</div>
+
+Once cloned run the below commands 
+<div >
+
+```
+git clone https://github.com/YosysHQ/yosys.git cd yosys
+sudo apt install make (If make is not installed please install it)
+sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \graphviz xdot pkg-config python3 libboost-system-dev \libboost-python-dev libboost-filesystem-dev zlib1g-dev
+make config-gcc
+make
+sudo make install
+```
+
+</div>
+
+

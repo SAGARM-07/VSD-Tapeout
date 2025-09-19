@@ -3,8 +3,6 @@
 
   **Task-2:**    Install Tools and Update Repo
 
-Verify Machine Configuration
-
 Before you begin, ensure your virtual machine meets the following requirements:
 
     Operating System: Ubuntu 20.04+
@@ -21,3 +19,5 @@ Follow the provided commands to install each tool. Open a terminal in your Ubunt
 Before that just update your system using **$ sudo apt-get update**
 
 **1.Yosys**
+
+Clone the repo of yosys 

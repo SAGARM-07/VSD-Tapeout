@@ -25,6 +25,8 @@ $ sudo apt-get update
 
 </div>
 
+<img width="859" height="270" alt="Image" src="https://github.com/user-attachments/assets/6fa08007-bc14-48eb-a725-ab735d82eff8" />
+
 **1.Yosys**
 
 

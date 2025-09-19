@@ -27,7 +27,12 @@ $ sudo apt-get update
 
 <img width="859" height="270" alt="Image" src="https://github.com/user-attachments/assets/6fa08007-bc14-48eb-a725-ab735d82eff8" />
 
+
+
+
 **1.Yosys**
+
+**Yosys synthesizes Verilog code, converting a circuit's behavioral description into an optimized netlist of logic gates.**
 
 
 Clone the repo of yosys 
@@ -39,7 +44,8 @@ git clone https://github.com/YosysHQ/yosys.git
 
 </div>
 
-<img width="859" height="193" alt="Image" src="https://github.com/user-attachments/assets/cb3e3d06-b6fa-45e8-be94-fe50af2df26d" />
+<img width="777" height="148" alt="Image" src="https://github.com/user-attachments/assets/b22993d4-bebf-44c1-972f-9b3bb8fe6b53" />
+
 
 Once cloned run the below commands 
 <div >
@@ -54,5 +60,25 @@ sudo make install
 ```
 
 </div>
+This commands installs the necessary packages
+
+
+
+**Now you are done with Yosys**
+
+**2.Iverilog**
+
+**Icarus Verilog (iverilog) is a Verilog compiler and simulator used to verify the functionality of a digital circuit design.**
+
+Just run the commands
+<div >
+
+```
+sudo apt-get update
+sudo apt-get install iverilog
+```
+
+</div>
+
 
 

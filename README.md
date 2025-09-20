@@ -1,5 +1,112 @@
 # VSD-Tapeout
-**WEEK 0**
+
+# WEEK 0
+
+**TASK-1**
+
+-----------------------------------------------------------------------------
+
+# ASIC/SoC Design Flow 🚀
+
+This repository demonstrates the complete flow of designing a chip — from high-level modeling to real-world application. The design process is broken into four key stages:
+
+- ✅ O1: C-based Chip Specification
+- ✅ O2: RTL Design using Verilog
+- ✅ O3: SoC Integration and Synthesis
+- ✅ O4: Final Fabricated Chip in Products
+
+---
+
+# Complete SoC/ASIC Design Flow (O1 → O4)
+# 🔹 O1 – Chip Modeling (C-Level Specification)
+The journey starts with specifying the chip's behavior using a C model.
+
+A testbench (also in C) is used to simulate and verify the model.
+
+**✅ Purpose:** To define what the chip is supposed to do.
+
+-----------------------------------------------------------------------------
+
+# 🔹 O2 – RTL Architecture (Design Using Verilog)
+The behavior from O1 is now translated into RTL code (Verilog).
+
+This is the soft copy of hardware — the blueprint of logic circuits.
+
+**Key components:**
+
+1. Processor
+
+2. Peripherals/IPs
+   
+
+Verified again with the same C testbench to ensure behavior is preserved.
+
+**✅ Goal:** RTL design behaves exactly like the C model (O1 = O2).
+
+-----------------------------------------------------------------------------
+
+# 🔹 O3 – SoC Integration (Synthesized & Combined)
+
+The RTL is synthesized into gate-level netlists.
+
+**Includes:**
+
+1. Macros (Synthesized modules like memory, DSPs)
+
+2. Analog IPs (functional analog blocks)
+
+3. SoC Integration (combining everything incl. GPIOs)
+
+4. Now the design is physically mapped — ready for layout.
+
+Verified again to ensure no behavioral change post-synthesis.
+
+**✅ Target: Integrated hardware still matches the specs (O1 = O2 = O3)**
+
+-----------------------------------------------------------------------------
+
+**🔹 RTL2GDS – Physical Design**
+
+**Steps:** Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing
+
+**Outputs a GDSII file** — the final layout to send for fabrication.
+
+**Runs checks:** DRC (Design Rule Check) and LVS (Layout vs Schematic)
+
+-----------------------------------------------------------------------------
+
+# 🔹 O4 – Fabricated Chip in Real Products
+
+The final chip is fabricated and installed in actual devices:
+|---------------------------------------|
+|⌚ iWatch                              |
+|                                       |
+|🔌 Arduino boards                      |
+|                                       |
+|📺 TV panels                           |
+|                                       |
+|❄️ AC appliances                       |
+
+
+Functionality is verified again via C testbench, confirming:
+
+✅ O1 = O2 = O3 = O4
+(i.e., final chip behaves exactly like the initial spec)
+
+-----------------------------------------------------------------------------
+
+## 📌 Flow Overview
+
+| Stage | Description                                | Verified With     |
+|-------|--------------------------------------------|--------------------|
+| O1    | Chip modeled in C                          | C Testbench        |
+| O2    | RTL logic using Verilog                    | C Testbench        |
+| O3    | Synthesized gate-level netlist + SoC       | C Testbench        |
+| O4    | Final chip in devices (iWatch, Arduino...) | Real-world testing |
+
+All stages ensure `O1 = O2 = O3 = O4` ✅
+
+------------------------------------------------------------------------
 
   **Task-2:**    Install Tools
 
@@ -28,7 +135,7 @@ sudo apt-get update
 <img width="859" height="270" alt="Image" src="https://github.com/user-attachments/assets/6fa08007-bc14-48eb-a725-ab735d82eff8" />
 
 
-
+------------------------------------------------------------------------
 
 **1.Yosys**
 
@@ -65,7 +172,7 @@ These commands will compile and install Yosys and all its required libraries.
 
 **Now you are done with Yosys**
 
-
+------------------------------------------------------------------------
 
 **2.Iverilog**
 
@@ -85,7 +192,7 @@ This will download and install the latest version of Iverilog, making it ready f
 
 **Now you are done with Iverilog**
 
-
+------------------------------------------------------------------------
 
 **3.gtkwave**
 
@@ -104,5 +211,9 @@ sudo apt install gtkwave
 This will download and install the latest version of gtkwave, making it ready for your simulations.
 
 **Now you are done with gtkwave**
+
+
+
+
 
 

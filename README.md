@@ -170,6 +170,8 @@ sudo make install
 These commands will compile and install Yosys and all its required libraries.
 
 
+
+
 **Now you are done with Yosys**
 
 ------------------------------------------------------------------------

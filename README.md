@@ -169,8 +169,7 @@ sudo make install
 </div>
 These commands will compile and install Yosys and all its required libraries.
 
-
-
+<img width="737" height="442" alt="Image" src="https://github.com/user-attachments/assets/f3d48cf9-92ed-47d8-8822-400c1e9e9a38" />
 
 **Now you are done with Yosys**
 

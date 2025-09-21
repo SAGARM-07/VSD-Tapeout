@@ -211,7 +211,7 @@ sudo apt install gtkwave
 </div>
 
 This will download and install the latest version of gtkwave, making it ready for your simulations.
-
+<img width="678" height="91" alt="Image" src="https://github.com/user-attachments/assets/814fabb8-0737-4a6a-80da-adcea0dc31b1" />
 
 **Now you are done with gtkwave**
 

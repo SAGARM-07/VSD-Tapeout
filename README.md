@@ -190,6 +190,7 @@ sudo apt-get install iverilog
 </div>
 
 This will download and install the latest version of Iverilog, making it ready for your simulations.
+<img width="784" height="569" alt="Image" src="https://github.com/user-attachments/assets/50f3eba8-d5a6-494f-bda5-fb08a7cfbd73" />
 
 **Now you are done with Iverilog**
 
@@ -210,6 +211,7 @@ sudo apt install gtkwave
 </div>
 
 This will download and install the latest version of gtkwave, making it ready for your simulations.
+
 
 **Now you are done with gtkwave**
 
